@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora Dev Rock!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="container">
+
+		<div class="calculadora">
+
+			<div>
+				<p id="visor"></p>
+			</div>
+						
+			<div class="btn-group btn-group-lg" role="group" aria-label="...">
+			  <button type="button" class="btn btn-default numero">7</button>
+			  <button type="button" class="btn btn-default numero">8</button>
+			  <button type="button" class="btn btn-default numero">9</button>
+			  <button type="button" class="btn btn-default operacion" data="resta">-</button>
+			</div>
+			<br>
+			<div class="btn-group btn-group-lg" role="group" aria-label="...">
+			  <button type="button" class="btn btn-default numero">4</button>
+			  <button type="button" class="btn btn-default numero">5</button>
+			  <button type="button" class="btn btn-default numero">6</button>
+			  <button type="button" class="btn btn-default operacion" data="suma">+</button>
+			</div>
+			<br>
+			<div class="btn-group btn-group-lg" role="group" aria-label="...">
+			  <button type="button" class="btn btn-default numero">1</button>
+			  <button type="button" class="btn btn-default numero">2</button>
+			  <button type="button" class="btn btn-default numero">3</button>
+			  <button type="button" class="btn btn-default operacion" data="multiplicar">*</button>
+			</div>
+			<br>
+			<div class="btn-group btn-group-lg" role="group" aria-label="...">
+			  <button type="button" class="btn btn-default numero">0</button>
+			  <button type="button" class="btn btn-default resultado">=</button>
+			  <button type="button" class="btn btn-default operacion" data="dividir">/</button>
+			  <button type="button" class="btn btn-default reseteo">C</button>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
