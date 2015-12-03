@@ -10,8 +10,18 @@ body {
 
 .container {
 	padding-top: 8%;
-	width: 15%;
-	margin-right: 70%;
+	background-color: red;
+}
+
+.calculadora {
+	background-color: blue;
+	padding: 0;
+	text-align: center;
+	
+}
+
+#visor {
+	background-color: yellow;
 }
 
 .container p {
@@ -20,15 +30,8 @@ body {
 	background-color: white;
 }
 
-
-
-.calculadora {
-	background-color: grey;
-	
-}
-
 .btn-group {
 	padding: 0;
 	margin: 0;
+	background-color: green;
 }
-
