@@ -6,7 +6,7 @@ Fue realizada en el marco del curso de fullstack developer de http://escueladevr
 
 Tecnología utilizada: HTML, CSS, JS y Bootstrap.
 
-Ejemplo:
+##Ejemplo:
 
 https://fullstackdevrock-calc.herokuapp.com/
 
